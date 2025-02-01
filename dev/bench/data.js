@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723768314671,
+  "lastUpdate": 1738431172532,
   "repoUrl": "https://github.com/lafrenierejm/ripsecrets",
   "entries": {
     "Benchmark": [
@@ -895,6 +895,36 @@ window.BENCHMARK_DATA = {
             "name": "Find secrets in getsentry/sentry/find_secrets function",
             "value": 401973974,
             "range": "± 2256664",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "113128490+korikhin@users.noreply.github.com",
+            "name": "Vladislav Korikhin",
+            "username": "korikhin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7877e35f2b839f2824fb17886c898d9a0fc67a5b",
+          "message": "Regex fixes (#91)\n\nAdded JWT/JWE, Square secret matching",
+          "timestamp": "2025-01-25T16:29:40-08:00",
+          "tree_id": "ee31f05d711ed38d7925dc6bd0c01ad77669a899",
+          "url": "https://github.com/lafrenierejm/ripsecrets/commit/7877e35f2b839f2824fb17886c898d9a0fc67a5b"
+        },
+        "date": 1738431172140,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Find secrets in getsentry/sentry/find_secrets function",
+            "value": 17483608864,
+            "range": "± 175963193",
             "unit": "ns/iter"
           }
         ]
