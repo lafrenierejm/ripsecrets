@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742355922574,
+  "lastUpdate": 1743997765880,
   "repoUrl": "https://github.com/lafrenierejm/ripsecrets",
   "entries": {
     "Benchmark": [
@@ -955,6 +955,36 @@ window.BENCHMARK_DATA = {
             "name": "Find secrets in getsentry/sentry/find_secrets function",
             "value": 18416619054,
             "range": "± 416254706",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "suzuki-shunsuke@users.noreply.github.com",
+            "name": "Shunsuke Suzuki",
+            "username": "suzuki-shunsuke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6302c226426034f846f3f0c522be7a15eb436f7b",
+          "message": "ci: checkout the repository before running install-nix-action (#97)\n\n* ci: checkout the repository before running install-nix-action\n\n* Update .github/workflows/release.yml\n\nCo-authored-by: Joseph LaFreniere <joseph.lafreniere@renaissance.com>\n\n---------\n\nCo-authored-by: Joseph LaFreniere <joseph.lafreniere@renaissance.com>",
+          "timestamp": "2025-03-30T21:54:46-07:00",
+          "tree_id": "372e374559ebd53b3f6154db21a536a509c135bf",
+          "url": "https://github.com/lafrenierejm/ripsecrets/commit/6302c226426034f846f3f0c522be7a15eb436f7b"
+        },
+        "date": 1743997765021,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Find secrets in getsentry/sentry/find_secrets function",
+            "value": 18329435941,
+            "range": "± 709031966",
             "unit": "ns/iter"
           }
         ]
