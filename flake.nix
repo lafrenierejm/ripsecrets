@@ -97,6 +97,11 @@
             cargoClippyExtraArgs = "--all-targets -- --deny warnings";
           };
 
+          deny = craneLib.cargoDeny {
+            inherit src;
+            cargoDenyChecks = "--config .cargo/deny.toml bans licenses sources";
+          };
+
           doc = craneLib.cargoDoc { inherit cargoArtifacts src; };
 
           fmt = craneLib.cargoFmt { inherit src; };
