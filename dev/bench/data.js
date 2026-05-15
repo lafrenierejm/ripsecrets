@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769125827819,
+  "lastUpdate": 1778814625586,
   "repoUrl": "https://github.com/lafrenierejm/ripsecrets",
   "entries": {
     "Benchmark": [
@@ -1229,6 +1229,36 @@ window.BENCHMARK_DATA = {
             "name": "Find secrets in getsentry/sentry/find_secrets function",
             "value": 19296156869,
             "range": "± 249110722",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "git@lafreniere.xyz",
+            "name": "Joseph LaFreniere",
+            "username": "lafrenierejm"
+          },
+          "committer": {
+            "email": "git@lafreniere.xyz",
+            "name": "Joseph LaFreniere",
+            "username": "lafrenierejm"
+          },
+          "distinct": true,
+          "id": "54bd5372cba182644e5e6917b8ae78a6f1294c03",
+          "message": "flake.lock: Update\n\nFlake lock file updates:\n\n• Updated input 'advisory-db':\n    'github:rustsec/advisory-db/3c6d3186ab06737d1defd2b5ae556d0ecd161603?narHash=sha256-Bcf7iBwrfjYPO7roKCz%2B3yPAFqgNqfKCp51sLKETjxU%3D' (2024-12-28)\n  → 'github:rustsec/advisory-db/64ca93bd6e5ad5b686c963a989d16f038349c6ae?narHash=sha256-BfkPsVAP269pe1pD%2BvQndpEjwZ87Vw3uOv9Nt2IJ2cs%3D' (2026-03-25)\n• Updated input 'crane':\n    'github:ipetkov/crane/72e2d02dbac80c8c86bf6bf3e785536acf8ee926?narHash=sha256-3aH/0Y6ajIlfy7j52FGZ%2Bs4icVX0oHhqBzRdlOeztqg%3D' (2024-12-21)\n  → 'github:ipetkov/crane/3d9df76e29656c679c744968b17fbaf28f0e923d?narHash=sha256-hy0XTQND6avzGEUFrJtYBBpFa/POiiaGBr2vpU6Y9tY%3D' (2026-03-24)\n• Updated input 'nixpkgs':\n    'github:NixOS/nixpkgs/5000219208d860bafd1ee26eadb403449f3d9ab9?narHash=sha256-4ZbiXBWFK0gHsl5VT9dih7RVaEV3rRh0XUV0jW0ibOM%3D' (2024-12-30)\n  → 'github:NixOS/nixpkgs/95064ab075b6cfb5df7fe04755cd0a51ac1c0a9b?narHash=sha256-Cs3VDWVpe8tVVBy8S3sui3tQ6m6RLn5byBCDfG6o0No%3D' (2026-03-26)\n• Updated input 'pre-commit-hooks':\n    'github:cachix/pre-commit-hooks.nix/f0f0dc4920a903c3e08f5bdb9246bb572fcae498?narHash=sha256-ulZN7ps8nBV31SE%2BdwkDvKIzvN6hroRY8sYOT0w%2BE28%3D' (2024-12-21)\n  → 'github:cachix/pre-commit-hooks.nix/f799ae951fde0627157f40aec28dec27b22076d0?narHash=sha256-EAtviqz0sEAxdHS4crqu7JGR5oI3BwaqG0mw7CmXkO8%3D' (2026-03-21)\n• Updated input 'pre-commit-hooks/flake-compat':\n    'github:edolstra/flake-compat/0f9255e01c2351cc7d116c072cb317785dd33b33?narHash=sha256-kvjfFW7WAETZlt09AgDn1MrtKzP7t90Vf7vypd3OL1U%3D' (2023-10-04)\n  → 'github:NixOS/flake-compat/5edf11c44bc78a0d334f6334cdaf7d60d732daab?narHash=sha256-vNpUSpF5Nuw8xvDLj2KCwwksIbjua2LZCqhV1LNRDns%3D' (2025-12-29)\n• Updated input 'pre-commit-hooks/nixpkgs':\n    'github:NixOS/nixpkgs/a04d33c0c3f1a59a2c1cb0c6e34cd24500e5a1dc?narHash=sha256-8AKquNnnSaJRXZxc5YmF/WfmxiHX6MMZZasRP6RRQkE%3D' (2024-11-05)\n  → 'github:NixOS/nixpkgs/47472570b1e607482890801aeaf29bfb749884f6?narHash=sha256-Vy%2BG%2BF%2B3E/Tl%2BGMNgiHl9Pah2DgShmIUBJXmbiQPHbI%3D' (2026-02-02)\n• Removed input 'pre-commit-hooks/nixpkgs-stable'\n• Updated input 'rust-overlay':\n    'github:oxalica/rust-overlay/10faa81b4c0135a04716cbd1649260d82b2890cd?narHash=sha256-pcN8LAL021zdC99a9F7iEiFCI1wmrE4DpIYUgKpB/jY%3D' (2024-12-30)\n  → 'github:oxalica/rust-overlay/d6471ee5a8f470251e6e5b83a20a182eb6c46c9b?narHash=sha256-Jn9d9r85dmf3gTMnSRt6t%2BDP2nQ5uJns/MMXg2FpzfM%3D' (2026-03-25)",
+          "timestamp": "2026-03-25T21:18:06-05:00",
+          "tree_id": "be8bad2e2f14be3244d6d8da84dbdfae568a4197",
+          "url": "https://github.com/lafrenierejm/ripsecrets/commit/54bd5372cba182644e5e6917b8ae78a6f1294c03"
+        },
+        "date": 1778814624189,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "Find secrets in getsentry/sentry/find_secrets function",
+            "value": 18658639682,
+            "range": "± 314486566",
             "unit": "ns/iter"
           }
         ]
